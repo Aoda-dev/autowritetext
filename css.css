@@ -1,36 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  background-color: #1f1f1f;
-  color: #fff;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  font-family: 'Poppins', sans-serif;
-  text-shadow: 10px 10px 10px 10px;
-  transition: background-color 0.5s ease;
+	background-color: #1f1f1f;
+	color: #fff;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	font-family: 'Poppins', sans-serif;
+	text-shadow: 10px 10px 10px 10px;
+	transition: background-color 0.5s ease;
+	overflow: hidden;
+	position: relative;
 }
 body.light {
-  background-color: #fff;
-  color: #1f1f1f;
+	background-color: #fff;
+	color: #1f1f1f;
 }
 body.dark {
-  background-color: #1f1f1f;;
-  color: #fff;
+	background-color: #1f1f1f;
+	color: #fff;
 }
 button {
-  background-color: white;
-  border: none;
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  font-size: 1rem;
-  border-radius: 5px;
+	background-color: white;
+	border: none;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	font-size: 1rem;
+	border-radius: 5px;
+}
+
+#numberSelect {
+	position: absolute;
+	bottom: 20px;
+}
+
+#numberSelect label {
+	font-size: 14px;
+}
+
+#numberSelect input {
+	font-size: 15px;
 }
